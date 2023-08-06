@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lugrasimo&family=Nunito:ital,wght@0,200;0,400;0,600;0,700;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Roboto+Mono:wght@500&family=Uchen&display=swap');
+
+button,
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --yellow: #CCCC00;
+    --gray: #efefef;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullContainer{
+    width: 100%;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+
+}
+
+header{
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index: 2;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .logo{
+    padding: 15px 0;
+    height: 75px;
+}
+
+header .container .logo img{
+    width: 50px;
+    height: 100%;
+    margin-left: 100px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    display: inline-block;
+    height: 60px;
+    line-height: 75px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+header nav ul li a.active,a:hover {
+    border-bottom: 4px solid  #CCCC00;
+    /* font-weight: 600; */
+
+    /* background-color: #e43a47; */
+}
+
+.banner {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./images/photo-1552862750-746b8f6f7f25.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner h1{
+    margin-top: 230px;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    width: 50%;
+    line-height: 4.2rem;
+    font-weight: 100;
+}
+
+.banner h2 span{
+    /* background-color: var(--yellow); */
+    color: var(--yellow);
+    display: inline;
+    line-height: 3.5rem;
+    padding: 0 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.banner p{  
+    background-color: #CCCC00;
+    color: white;
+    border: 0;
+    outline: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
