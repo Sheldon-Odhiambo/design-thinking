@@ -25,6 +25,41 @@ body{
 
 }
 
+.sectionTitle {
+    width: 300px;
+    border-bottom: 3px solid var(--yellow);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 auto 50px;
+    position: relative;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.sectionTitle::after{
+    display: inline-block;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background-color: var(--yellow);
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(75% - 7px);
+    transform: rotate(45deg) translate(50%, 50%);
+    border: 3px solid #fff;
+
+}
+
+section{
+    padding: 100px 0;
+    position: relative;
+}
+
+span{
+    color: var(--yellow);
+}
+
 header{
     width: 100%;
     background-color: rgba(0,0,0,0.6);
@@ -115,7 +150,31 @@ header nav ul li a.active,a:hover {
     font-weight: 600;
 }
 
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 2rem;
+}
 
+.about-img img{
+    width: 35vw;
+    padding: 10%;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3{
+    font-size: 1.6rem;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
 
 
 
