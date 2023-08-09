@@ -155,6 +155,7 @@ header nav ul li a.active,a:hover {
     justify-content: center;
     align-items: center; 
     gap: 2rem;
+    color: #444;
 }
 
 .about-img img{
@@ -165,6 +166,7 @@ header nav ul li a.active,a:hover {
 .about-content h2{
     text-align: left;
     line-height: 1.2;
+
 }
 
 .about-content h3{
@@ -218,12 +220,14 @@ header nav ul li a.active,a:hover {
     background-image: url(./images/istockphoto-1339305511-612x612.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: #ccc;
 }
 .services1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
+    
 }
 
 
@@ -244,6 +248,27 @@ header nav ul li a.active,a:hover {
 } 
 
 .results{
+    margin: 5rem;
+    /* text-align: justify; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #00000096;
+    border-radius: 5px;
+    /* height: 50%; */
+    width: 500px;
+}
+
+.booking{
+    color: #000;
     text-align: center;
-    
+    padding: 2rem;
+}
+
+#bookingBtn{
+    background-color: var(--yellow);
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2rem;
 }
