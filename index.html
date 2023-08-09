@@ -19,7 +19,6 @@
                 <li><a href="#homeSection" class="active">Home</a></li>
                 <li><a href="#aboutsection">About Us</a></li>
                 <li><a href="#programsSection">Programs</a></li>
-                <!-- <li><a href="javascript:void(0);">Case Study</a></li> -->
                 <li><a href="#servicesSection">Services</a></li>
                 <li><a href="javascript:void(0);">Partners</a></li>
                 <li><a href="javascript:void(0);">Contact</a></li>
@@ -32,13 +31,50 @@
 
     <div class="container">
         <h1>Helping Africa stay Ahead of innovation curve</h1>
-        <h2>Why Design Thinking Process?<span class="change-content"></span></h2>
-        <p>Let’s partner to create business transformation through innovation
-            <br>Let us know about your challenge.
-        </p>
+        <h2>Design Thinking!!<span class="change-content"></span></h2>
+        
     
     </div>
+
+    <div class="process">
+        <h1>Why design thinking Process?</h1>
+        <ul class="benefits">
+            <li>
+                <img src="./images/purchase-3347053_1280.jpg" alt="">
+                <span>Promote Collaboration</span>
+            </li>
+            <li>
+                <img src="./images/istockphoto-1322542460-612x612.jpg" alt="">
+                <span>Transform Your Business</span>
+            </li>
+            <li>
+                <img src="./images/istockphoto-1322542460-612x612.jpg" alt="">
+                <span>Boost Profits</span>
+            </li>
+            <li>
+                <img src="./images/istockphoto-1322542460-612x612.jpg" alt="">
+                <span>Empower your Team</span>
+            </li>
+        </ul>
+        <p>Let's partner to create business transformation through innovation</p>
+    </div>
 </div>
+
+<main>
+    <section class="challange-form">
+    <h2>Submit your Challange</h2>
+    <form action="" id="challangeForm" onsubmit="submitForm(event)">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" required>
+        <label for="challange">Describe your Challange:</label>
+        <textarea id="challange"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+</main>
+
     <!-- home section end -->
 
     <!-- about section  -->
@@ -116,41 +152,24 @@
         <div class="container">
             <div class="sectionTitle">Services</div>
         </div>
-        <div class="services1">
-            <div class="service">
-                <h2>Innovation by Design</h2>
-                <p>Achieve Organic growth using design thinking process to innovate</p>
-            </div>
-            <div class="service">
-                <h2>Value Proposition Design</h2>
-                <p> We guide and coach internal cross-functional team to transform customer needs into business products and services.</p>
-            </div>
-            <div class="service">
-                <h2>Design Thinking Starter</h2>
-                <p>Introduce the fundamentals of design thinking to your team and set them on the path of innovation.</p>
-            </div>
-            <div class="service">
-                <h2>Innovation by Design</h2>
-                <p>Achieve Organic growth using design thinking process to innovate</p>
-            </div>
-            <div class="service">
-                <h2>Design Thinking Community</h2>
-                <p>Create a collaborative environment where your team can learn and apply design thinking principles</p>
-            </div>
-        </div>
-        <div class="results">
-            <h2>Our Results</h2>
-            <ul>
-                <li>We introduce design thinking process to your organization</li>
-                <li>We introduce design thinking process to your organization</li>
-                <li>We introduce design thinking process to your organization</li>
+        <div class="servicesContainer">
+            <li>Innovation by Design</li>
+            <li>Value Proposition Design</li>
+            <li>Design Thinking Starter</li>
+            <li>Design Thinking Community</li>
+            <li>User Experience Research and Design</li>
+            <p>Achieve organic growth using the design thinking process to innovate.
+                <br>As Design Thinking Society, we guide and coach your internal cross-functional team by helping them
+                identify and transform customer needs into novel business products, services and models.</p>
+            
+            <Button>Book us now</Button>
 
-            </ul>
         </div>
-        <div class="booking">
-            <p>Book a meeting with us today, and we will help you revolutionize your business.</p>
-            <button id="bookingBtn">Book a Meeting</button>
+
+        <div class="service-img">
+            <img src="./images/bulb.png" alt="">
         </div>
+        
     </section>
 
     <!-- services section end  -->
