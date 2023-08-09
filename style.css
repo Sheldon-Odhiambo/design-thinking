@@ -214,3 +214,36 @@ header nav ul li a.active,a:hover {
     color: #444;
 }
 
+.services{
+    background-image: url(./images/istockphoto-1339305511-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.service{
+    background-color: #00000096;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+.results ul{
+    list-style-type: disc;
+    padding-right: 6rem;
+} 
+
+.results{
+    text-align: center;
+    
+}
