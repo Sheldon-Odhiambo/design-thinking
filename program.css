@@ -110,85 +110,72 @@ header nav ul li a.active,a:hover {
     /* background-color: #e43a47; */
 }
 
-
-
-.programs{
-    background-color: var(--gray);
-    max-width: 100%;
-    /* margin: 50px auto 0; */
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
 }
 
-.programs .mvv-block{
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-}
-
-.programs .mvv-block .image{
-    flex: 0 0 auto;
-    width: 400px;
-    overflow: hidden;
+.section{
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .3);
-    line-height: 0;
-    
-
+    box-shadow: 0 2px 4px rgba(55, 47, 47, 0.1), 0.1;
 }
 
-.programs .mvv-block .image img{
-    width: 100%;
-    transition: .3s;
-    transform: scale(1);
-}
-
-.programs .mvv-block .image:hover{
-    transform: scale(1.05);
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #444;
 
 }
-
-.programs .mvv-block .content{
-    flex: 0 0 auto;
-    width: calc(100% - 400px);
-    box-sizing: border-box;
-    align-self: center;
-}
-
-.programs .mvv-block .content h5{
-    font-weight: 700;
-    font-size: 22px;
+span{
     color: var(--yellow);
-    margin-bottom: 10px;
 }
 
-.programs .mvv-block .content p{
-    font-size: 15px;
+p{
+    margin-bottom: 1rem;
+    color: #444;
+
+}
+.image-section{
+    display: flex;
+    align-items: center;
+}
+.image-container{
+    flex: 1;
+    max-width: 50%;
+    padding: 2rem;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px;
 }
 
-@media screen and (min-width: 1024px){
+.content-container{
+    flex: 1;
+    max-width: 80%;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
 
-    .programs .mvv-block:nth-child(odd) .image{
-
-        order: 1;
+@media (max-width: 768px) {
+    .image-selection{
+        flex-direction: column;
     }
 
-    .programs .mvv-block:nth-child(odd) .image{
+    .image-container,
+    .content-container{
+        max-width: 100%;
 
-        order: 2;
     }
 
-    .programs .mvv-block:nth-child(odd) .content{
-
-        order: 2;
-        padding-left: 30px;
-        
-    }
-
-    .programs .mvv-block:nth-child(odd) .content{
-
-        order: 1;
-        padding-right: 30px;
-
+    .content-container{
+        margin-top: 1rem;
     }
 }
