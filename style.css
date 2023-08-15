@@ -394,6 +394,44 @@ button:hover{
     background-color: var(--yellow);
 }
 
+/* Add this to your existing styles.css */
+
+.resources {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resources h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .resources h3 {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
+  .resources ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .resources li {
+    margin-top: 8px;
+  }
+  
+  .resources p {
+    margin-top: 15px;
+  }
+  
+  /* Adjust other styles as needed */
+  
+
 
 
 
