@@ -76,6 +76,42 @@
 
 
           </section>
+
+          <section id="our-founding-team">
+            <h2>Our Founding Team</h2>
+            <div class="team-members-container">
+                <div class="team-member">
+                    <img src="./images/donn.jpg" alt="">
+                    <p class="team-member-name">Kijana Awesome</p>
+                    <div class="team-member-details">
+                        <p>Role:Designer</p>
+                        <p>Experience: 3years</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="./images/donn.jpg" alt="">
+                    <p class="team-member-name">Kijana Awesome</p>
+                    <div class="team-member-details">
+                        <p>Role:Designer</p>
+                        <p>Experience: 3years</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="./images/donn.jpg" alt="">
+                    <p class="team-member-name">Kijana Awesome</p>
+                    <div class="team-member-details">
+                        <p>Role:Designer</p>
+                        <p>Experience: 3years</p>
+                    </div>
+                </div>
+               
+            </div>
+            
+          </section>
+
+    
                 <!-- <section id="our-vision">
             <div class="image-container">
                 <img src="./images/istockphoto-1339305511-612x612.jpg" alt="Our Vision Image">
@@ -86,6 +122,18 @@
             </div>
         </section> -->
     <!-- about section end  -->
+
+    <script>
+        const teamMembers = document.querySelectorAll('.team-member');
+    
+        teamMembers.forEach(member => {
+            const name = member.querySelector('.team-member-name');
+            name.addEventListener('click', () => {
+                member.classList.toggle('active');
+            });
+        });
+    </script>
+    
     
 </body>
 </html>
