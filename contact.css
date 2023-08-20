@@ -139,6 +139,76 @@ header nav ul li a.active,a:hover {
     color: #fff;
 }
 
+
 .join button.bookButton{
     background-color: var(--gray);
+}
+
+
+.join button.joinNow:hover {
+    background-color: var(--gray);
+    color: black;
+}
+
+.join button.bookButton:hover {
+    background-color: var(--yellow);
+    color: #fff;
+}
+
+
+/* .logo img{
+    width: 100px;
+    height: 80%;
+    margin-left: 100px;
+} */
+
+footer{
+    background-color: #181818;
+    color: gray;
+    padding: 50px 0;
+    font-size: 14px;
+
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+footer .title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+    padding: 0 0 5px 0;
+}
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .linksContainer ul{
+    list-style-type: none;
+}
+
+footer .linksContainer ul li a {
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+footer .newsLetterContainer img{
+    height: 40px;
+    margin-bottom: 11px;
+}
+
+footer .newsLetterContainer input{
+    background-color: transparent;
+    border: 1px solid #7f7f7f;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 10px;
+    color: var(--yellow);
+    border-radius: 30px;
 }
