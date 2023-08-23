@@ -382,7 +382,7 @@ input, textarea {
 }
 
 button{
-    background-color: var(--gray);
+    background-color: var(--yellow);
     color: white;
     border: none;
     border-radius: 5px;
@@ -391,7 +391,8 @@ button{
 }
 
 button:hover{
-    background-color: var(--yellow);
+    background-color: red;
+    color: black;
 }
 
 /* Add this to your existing styles.css */
@@ -430,7 +431,58 @@ button:hover{
   }
   
   /* Adjust other styles as needed */
-  
+
+  footer{
+    background-color: #181818;
+    color: gray;
+    padding: 50px 0;
+    font-size: 14px;
+
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+footer .title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+    padding: 0 0 5px 0;
+}
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .linksContainer ul{
+    list-style-type: none;
+}
+
+footer .linksContainer ul li a {
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+footer .newsLetterContainer img{
+    height: 40px;
+    margin-bottom: 11px;
+}
+
+footer .newsLetterContainer input{
+    background-color: transparent;
+    border: 1px solid #7f7f7f;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 10px;
+    color: var(--yellow);
+    border-radius: 30px;
+}
+
 
 
 

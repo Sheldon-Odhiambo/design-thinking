@@ -116,6 +116,7 @@ header nav ul li a.active,a:hover {
     align-items: center; 
     gap: 2rem;
     color: #444;
+    
 }
 
 .about-img img{
@@ -253,3 +254,49 @@ p{
 .team-member.active .team-member-details{
     display: block;
 }
+
+.join{
+    background-image: url(./images/pexels-led-supermarket-577514.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.join .joinTitle{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.join .joinTitle span{
+    font-weight: 800;
+}
+.join button {
+    padding: 7px 15px;
+    margin-top: 20px;
+    border: 0;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.join button.joinNow{
+    margin-right: 10px;
+    background-color: var(--yellow);
+    color: #fff;
+}
+
+
+.join button.bookButton{
+    background-color: var(--gray);
+}
+
+
+.join button.joinNow:hover {
+    background-color: var(--gray);
+    color: black;
+}
+
+.join button.bookButton:hover {
+    background-color: var(--yellow);
+    color: #fff;
+}
+
