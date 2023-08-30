@@ -29,8 +29,8 @@
     <!-- home section start  -->
 
     <div class="container">
-        <h1>Helping Africa stay Ahead of innovation curve</h1>
-        <h2>Design Thinking!!<span class="change-content"></span></h2>
+        <h1>Helping Africa stay Ahead of the innovation curve</h1>
+        <h2>Design Thinking!<span class="change-content"></span></h2>
         
         <div class="process">
             <h1>Why design thinking Process?</h1>
@@ -55,29 +55,37 @@
             <p>Let's partner to create business transformation through innovation</p>
         </div>
 
-
-        <main>
-            <section class="challange-form" id="challange-form">
-            <h2>Submit your Challange</h2>
-            <form action="" id="challangeForm" onsubmit="submitForm(event)">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" required>
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" required>
-                <label for="challange">Describe your Challange:</label>
-                <textarea id="challange"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-        </main>
-        
-
-        
-
     </div>
 
     
 </div>
+
+
+<main>
+    <section class="challange-section">
+        <div class="image-container">
+            <img src="./images/Vision .jpg" alt="">
+        </div>
+        <div class="form-container">
+            <h2>Let us know about your challange</h2>
+            <form id="challange-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">EmailAddress:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="challange">Describe your challange:</label>
+                <textarea id="challange" name="challange" rows="4" required></textarea>
+
+                <label for="consent">Consent to use the information:</label>
+                <input type="checkbox" id="consent" name="consent" required>
+                <p>By submitting this form, you understand and agree with the content of the <span>cookie and personal data processing policy, terms and conditions,</span> available on the site.</p>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</main>
 
 
     <!-- home section end -->
