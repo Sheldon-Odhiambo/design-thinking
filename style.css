@@ -333,9 +333,53 @@ button:hover {
     background-color: #0056b3;
 }
 
+/* upcoming event */
+.event-container{
+text-align: center;
+padding: 60px;
+background-color: var(--gray);
+}
+
+.event-container h2{
+    color: #333;
+}
+
+.event-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.event-card img {
+    max-width: 70%;
+    border-radius: 300px;
+    margin-bottom: 10px;
+}
+
+.event-card h3{
+    color: #555;
+}
+
+button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
 
 
 
+/* upcoming event end  */
 
 
 

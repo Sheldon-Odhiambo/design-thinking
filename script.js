@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     form.addEventListener("submit", function(event) {
     event.preventDefault();
   
-      // You can add your logic here to process the form submission
+      // can add your logic here to process the form submission
     const name = form.elements.name.value;
     const email = form.elements.email.value;
     const challenge = form.elements.challenge.value;
@@ -31,4 +31,35 @@ document.addEventListener("DOMContentLoaded", function() {
     form.reset();
     });
 });
+
+
+// upcoming events 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const eventDate = new Date('2023-09-15');
+    const eventLocation = 'Event Hall';
+  
+    let registeredCount = 0; // Initialize the counter
+  
+    const updateRegisteredCount = () => {
+        document.getElementById('registered-count').textContent = registeredCount;
+    };
+  
+    updateRegisteredCount(); // Initial update
+  
+    document.getElementById('event-date').textContent = eventDate.toDateString();
+    document.getElementById('event-location').textContent = eventLocation;
+  
+    document.getElementById('register-btn').addEventListener('click', function() {
+        // Simulate registration (you can replace this with actual registration logic)
+        registeredCount++;
+        updateRegisteredCount();
+  
+        alert('You have been registered for the event!');
+    });
+  });
+  
+
+
+// upcoming events end
 
