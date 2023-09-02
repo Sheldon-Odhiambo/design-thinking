@@ -31,7 +31,7 @@ body{
     text-align: center;
     font-size: 2rem;
     font-weight: 200;
-    margin: 0 auto 50px;
+    margin: 0 auto ;
     position: relative;
     padding: 10px 0;
     text-transform: uppercase;
@@ -52,7 +52,7 @@ body{
 }
 
 section{
-    padding: 100px 0;
+    padding: 100px 0 0px;
     position: relative;
 }
 
@@ -110,59 +110,9 @@ header nav ul li a.active,a:hover {
     /* background-color: #e43a47; */
 }
 
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    gap: 2rem;
-    color: #444;
-    
-}
 
-.about-img img{
-    width: 35vw;
-    padding: 10%;
-}
 
-.about-content h2{
-    text-align: left;
-    line-height: 1.2;
-
-}
-
-.about-content h3{
-    font-size: 1.6rem;
-}
-
-.about-content p{
-    font-size: 1.6rem;
-    margin: 2rem 0;
-}
-
-.section{
-    margin: 2rem 0;
-    padding: 2rem;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(55, 47, 47, 0.1), 0.1;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #444;
-
-}
-span{
-    color: var(--yellow);
-}
-
-p{
-    margin-bottom: 1rem;
-    color: #444;
-
-}
-.programs{
+/* .programs{
     background-color: var(--gray);
 }
 .image-section{
@@ -203,10 +153,9 @@ p{
 
     .content-container{
         margin-top: 1rem;
-    }
-}
+    } */
 
-#our-founding-team h2{
+/* #our-founding-team h2{
     text-align: center;
 }
 .team-members-container{
@@ -253,50 +202,77 @@ p{
 
 .team-member.active .team-member-details{
     display: block;
+} */
+
+/* .about-main-container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+} */
+.about-how-we-work-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px 7.5%;
+    margin-top: 80px;
+
 }
 
-.join{
-    background-image: url(./images/pexels-led-supermarket-577514.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
-}
-.join .joinTitle{
-    font-size: 40px;
-    font-weight: 100;
+.about-how-we-work-container > img{
+    width: 48%;
 }
 
-.join .joinTitle span{
-    font-weight: 800;
-}
-.join button {
-    padding: 7px 15px;
-    margin-top: 20px;
-    border: 0;
-    outline: none;
-    font-weight: 600;
-    font-size: 16px;
+.about-how-we-work-container h3{
+    color: var(--yellow);
+    font-size: 1rem;
 }
 
-.join button.joinNow{
-    margin-right: 10px;
-    background-color: var(--yellow);
-    color: #fff;
-}
-
-
-.join button.bookButton{
+.about-who-we-are-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    padding: 80px 7.5%;
+    margin-top: 80px;
     background-color: var(--gray);
+    
+
+
 }
 
+.about-who-we-are-container > img{
+    width: 48%;
+}
 
-.join button.joinNow:hover {
+.about-mission-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 80px 7.5%;
+
+    /* flex-direction: row-reverse; */
+
+}
+
+.about-mission-container > img{
+    width: 48%;
+}
+.about-vision-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    padding: 80px 7.5%;
     background-color: var(--gray);
-    color: black;
+
+
+
 }
 
-.join button.bookButton:hover {
-    background-color: var(--yellow);
-    color: #fff;
+.about-vision-container > img{
+    width: 48%;
 }
+
+
+
 
