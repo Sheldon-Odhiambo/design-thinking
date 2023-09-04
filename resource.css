@@ -110,7 +110,7 @@ header nav ul li a.active,a:hover {
     /* background-color: #e43a47; */
 }
 
-.container-b{
+/* .container-b{
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
@@ -127,24 +127,23 @@ header nav ul li a.active,a:hover {
     padding: 0;
     display: flex;
     flex-wrap: wrap;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-}
-
+} */
+/* 
 .resource-list li {
     width: 12%;
-    /* width: calc(33.33% - 20px); */
+    width: calc(33.33% - 20px); 
     margin-right: 20px;
     margin-bottom: 20px;
     padding: 1rem;
     background-color: #fff;
-    /* box-shadow: 0px 2px 4px rgba(0,0,0,0.1); */
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1); 
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }   
 
 .resource-list img{
-    max-width: 100%;
+    max-width: 80px;
     height: 50%;
     margin-bottom: 1rem;
 }
@@ -181,7 +180,7 @@ header nav ul li a.active,a:hover {
 
 .resource-listb li {
     width: 20%;
-    /* width: calc(33.33% - 20px); */
+     width: calc(33.33% - 20px); 
     margin-right: 20px;
     margin-bottom: 20px;
     padding: 1rem;
@@ -207,9 +206,58 @@ header nav ul li a.active,a:hover {
     font-size: 40%;
     margin-top: 2rem;
     color: var(--yellow);
+} */
+
+.container-b{
+    /* border: 1px solid black; */
+
+}
+.container-b h2 {
+    /* text-align: center; */
+    color: var(--yellow);
+    padding: 1rem;
+    
+
+}
+.resource-list {
+    list-style: none;
+
+    /* 1300px going up */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.resource-list li{
+    text-align: center;
+}
+.resource-list > li > img {
+    /* width: 60%;
+    max-width: 100px; */
+    height: 160px;
 }
 
+.resource-list a{
+    color: var(--yellow);
+    font-size: small;
+}
 
+.container-c{
+    margin-top: 5rem;
+}
+.container-c h1{
+    color: var(--yellow);
+}
+
+.container-d{
+    margin-top: 5rem;
+}
+
+.container-d > ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
 
 
 
