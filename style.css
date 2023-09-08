@@ -104,7 +104,7 @@ header nav ul li a{
 }
 
 header nav ul li a.active,a:hover {
-    border-bottom: 4px solid  #CCCC00;
+    border-bottom: 4px solid   #f23a1d;
     /* font-weight: 600; */
 
     /* background-color: #e43a47; */

@@ -27,7 +27,7 @@ body{
 
 .sectionTitle {
     width: 200px;
-    border-bottom: 3px solid var(--yellow);
+    border-bottom: 3px solid  #f23a1d;
     text-align: center;
     font-size: 2rem;
     font-weight: 200;
@@ -42,7 +42,7 @@ body{
     content: '';
     height: 15px;
     width: 15px;
-    background-color: var(--yellow);
+    background-color:  #f23a1d;
     position: absolute;
     left: calc(50% - 10px);
     top: calc(75% - 7px);
@@ -104,7 +104,7 @@ header nav ul li a{
 }
 
 header nav ul li a.active,a:hover {
-    border-bottom: 4px solid  #CCCC00;
+    border-bottom: 4px solid   #f23a1d;
     /* font-weight: 600; */
 
     /* background-color: #e43a47; */
@@ -215,6 +215,9 @@ header nav ul li a.active,a:hover {
     gap: 1rem;
     padding: 20px 7.5%;
     margin-top: 80px;
+    background-image: url(./images/blob.svg);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -223,7 +226,7 @@ header nav ul li a.active,a:hover {
 }
 
 .about-how-we-work-container h3{
-    color: var(--yellow);
+    color:  #f23a1d;
     font-size: 1rem;
 }
 
@@ -249,6 +252,10 @@ header nav ul li a.active,a:hover {
     justify-content: space-between;
     gap: 1rem;
     padding: 80px 7.5%;
+    background-image: url(./images/blob.svg);
+    background-size: cover;
+    background-attachment: fixed;
+
 
     /* flex-direction: row-reverse; */
 
