@@ -27,7 +27,7 @@ body{
 
 .sectionTitle {
     width: 200px;
-    border-bottom: 3px solid var(--yellow);
+    border-bottom: 3px solid #f23a1d;
     text-align: center;
     font-size: 2rem;
     font-weight: 200;
@@ -42,7 +42,7 @@ body{
     content: '';
     height: 15px;
     width: 15px;
-    background-color: var(--yellow);
+    background-color: #f23a1d;
     position: absolute;
     left: calc(50% - 10px);
     top: calc(75% - 7px);
@@ -57,7 +57,7 @@ section{
 }
 
 span{
-    color: var(--yellow);
+    color: #f23a1d;
 }
 
 header{
@@ -104,111 +104,98 @@ header nav ul li a{
 }
 
 header nav ul li a.active,a:hover {
-    border-bottom: 4px solid  #CCCC00;
+    border-bottom: 4px solid  #f23a1d;
     /* font-weight: 600; */
 
     /* background-color: #e43a47; */
 }
 
-.join{
-    background-image: url(./images/pexels-led-supermarket-577514.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+
+
+.contact-main-container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    /* gap: 4%; */
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+.contact-info-container{
+    background-color: #f23a1d;
+    border-radius: 0.8rem;
     color: #fff;
-}
-.join .joinTitle{
-    font-size: 40px;
-    font-weight: 100;
-}
+    width: 48%;
+    padding: 1rem 2rem;
 
-.join .joinTitle span{
-    font-weight: 800;
 }
-.join button {
-    padding: 7px 15px;
-    margin-top: 20px;
-    border: 0;
-    outline: none;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.join button.joinNow{
-    margin-right: 10px;
-    background-color: var(--yellow);
+.contact-social-links a {
     color: #fff;
-}
-
-
-.join button.bookButton{
-    background-color: var(--gray);
-}
-
-
-.join button.joinNow:hover {
-    background-color: var(--gray);
-    color: black;
-}
-
-.join button.bookButton:hover {
-    background-color: var(--yellow);
-    color: #fff;
-}
-
-
-/* .logo img{
-    width: 100px;
-    height: 80%;
-    margin-left: 100px;
-} */
-
-footer{
-    background-color: #181818;
-    color: gray;
-    padding: 50px 0;
-    font-size: 14px;
-
-}
-
-footer .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;
-}
-
-footer .title{
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-bottom: 2px solid;
-    margin-bottom: 30px;
-    padding: 0 0 5px 0;
-}
-footer p {
-    margin-bottom: 10px;
-}
-
-footer .linksContainer ul{
-    list-style-type: none;
-}
-
-footer .linksContainer ul li a {
     text-decoration: none;
-    color: #7f7f7f;
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    
+}
+.contact-icon-background{
+    height: 2rem;
+    width: 2rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
 }
 
-footer .newsLetterContainer img{
-    height: 40px;
-    margin-bottom: 11px;
+.contact-icon-background i {
+    color: #f23a1d;
 }
 
-footer .newsLetterContainer input{
-    background-color: transparent;
-    border: 1px solid #7f7f7f;
-    outline: none;
-    padding: 10px 15px;
+.contact-form{
+    width: 48%;
+    padding-right: 1rem;
+}
+.contact-form fieldset{
+    border: none;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    font-size: .9rem;
+
+}
+.contact-form input{
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-top: 4px;
+    font-size: 0.95rem;
+}
+
+.contact-form textarea{
+    border: 1px solid #ccc;
+    padding: 7px 10px ;
+    border-radius: 4px;
     width: 100%;
-    margin-top: 10px;
-    color: var(--yellow);
-    border-radius: 30px;
+    height: 100px;
+    resize: none;
+    resize: vertical;
+}
+
+.contact-form button{
+    background-color: #f23a1d;
+    border: 1px solid #f23a1d;
+    font-size: 1rem;
+    padding: 8px 14px;
+    border-radius: 8px;
+    color: white;
+    position: relative; 
+    left: 80%;
+}
+.contact-form button:hover{
+    cursor: pointer;
 }
