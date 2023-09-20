@@ -180,6 +180,9 @@ header nav ul li a.active,a:hover {
 .service-innovation-container > img {
   width: 48%;
   border-radius: 0.5rem;
+  box-shadow: -20px -20px 0 lightblue;
+
+  
 }
 
 .innovation-text{
@@ -201,6 +204,8 @@ header nav ul li a.active,a:hover {
 .service-value-container > img {
   width: 48%;
   border-radius: 0.5rem;
+  box-shadow: 20px -20px 0 lightblue;
+
 }
 
 .value-text{
@@ -223,6 +228,8 @@ header nav ul li a.active,a:hover {
 .service-starter-container > img {
   width: 48%;
   border-radius: 0.5rem;
+  box-shadow: -20px -20px 0 lightblue;
+
 }
 
 .starter-text{
@@ -244,6 +251,8 @@ header nav ul li a.active,a:hover {
 .service-community-container > img {
   width: 48%;
   border-radius: 0.5rem;
+  box-shadow: 20px -20px 0 lightblue;
+
 }
 
 .community-text{
@@ -265,6 +274,8 @@ header nav ul li a.active,a:hover {
 .service-design-container > img {
   width: 48%;
   border-radius: 0.5rem;
+  box-shadow: -20px -20px 0 lightblue;
+
 }
 
 .design-text{

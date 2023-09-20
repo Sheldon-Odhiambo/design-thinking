@@ -36,12 +36,16 @@ body{
     padding: 10px 0;
     text-transform: uppercase;
 }
+/* #serve{
+    padding-top: 100px;
+} */
 
 .sectionTitle::after{
     display: inline-block;
     content: '';
     height: 15px;
     width: 15px;
+    /* padding: 6px; */
     background-color: #f23a1d;
     position: absolute;
     left: calc(50% - 10px);
@@ -50,9 +54,12 @@ body{
     border: 3px solid #fff;
 
 }
+.contacts{
+    padding: 100px;
+}
 
 section{
-    padding: 100px 0;
+    /* padding: 100px 0; */
     position: relative;
 }
 
@@ -200,60 +207,60 @@ header nav ul li a.active,a:hover {
     cursor: pointer;
 }
 
-footer{
+footer {
     background-color: #f23a1d;
-    color: #fff;
+    color: white;
     width: 100%;
-    padding-top: 2rem;
-}
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding-top: 1rem;
+  }
+  
+  .footer-container {
     width: 85%;
     margin: auto;
-}
-
-.footer-section-title{
+  }
+  
+  .footer-section {
+    margin: 2rem 0;
+  }
+  
+  .footer-section-title {
     font-weight: 600;
-    
-
-
-}
-.footer-section-title-underline{
+  }
+  
+  .footer-section-title-underline {
     display: flex;
     margin: 0.7rem 0;
-    margin-top: 0.7rem;
-    /* margin-right: 0px;
-    margin-bottom: 0.7rem;
-    margin-left: 0px;  */
-}
-.underline-blue{
+  }
+  
+  .underline-orange {
     width: 3rem;
     border: none;
     border-bottom: 4px solid blue;
     border-radius: 0 50px 0 0;
-}
-.underline-grey{
+  }
+  
+  .underline-grey {
     width: calc(100% - 3rem);
     border: none;
-    border-bottom: 0.5px solid #767675;
-}
-.footer-logo{
-    display: flex;
-    width: 48%;
-    height: auto;margin: 1rem 0 0.5rem;
-    filter: var(--yellow);
-}
-.footer-section p{
-    line-height: 1.7rem;
-}
-.footer-socials{
+    border-bottom: 0.5px solid #767676;
+  }
+  
+  .footer-logo {
+    display: none;
+    
+  }
+  
+  .footer-section p {
+    line-height: 1.6rem;
+  }
+  
+  .footer-socials {
     display: flex;
     margin-top: 1rem;
-}
-.footer-icon-container{
-    background: #fff;
+  }
+  
+  .footer-icon-container {
+    background-color: white;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
@@ -261,39 +268,127 @@ footer{
     place-items: center;
     margin-right: 0.5rem;
     color: #f23a1d;
+  }
+
+a{
+    color: inherit;
+    text-decoration: none;
 }
-.footer-icon-container i{
+
+  
+  .footer-icon-container i {
     font-size: 1.2rem;
-}
-.footer-links{
+  }
+  
+  .footer-icon-container:hover {
+    background-color: var(--primaryBlueColor);
+    color: white;
+  }
+  
+  .footer-links {
     display: flex;
     flex-direction: column;
-}
-
-.footer-links > a{
-    color: #fff;
-    text-decoration: none;
+  }
+  
+  .footer-links > a {
+    color: white;
     margin: 0.3rem 0;
-
-}
-
-.footer-section-title-underline{
-    display: flex;
-    margin: 0.7rem 0;
-}
-
-address{
-    font-style: normal;
-}
-
-#footer-copyright-separator{
+  }
+  
+  .footer-links > a:hover {
+    color: var(--secondaryOrangeColor);
+  }
+  
+  #footer-copyright-seperator {
     width: 85%;
     margin: 0 auto 1rem;
     border: none;
     border-bottom: 0.5px solid #767676;
-}
-
-.footer-copyright{
+  }
+  
+  .footer-copyright {
     text-align: center;
     height: 3rem;
-}
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  /* ====== MEDIA QUERIES ====== */
+  /* Best Practice suggests */
+  /* keep default style for smallest screen size (portrait mobile, below 576px) */
+  /* and then proceed in assending order with media query like below */
+  
+  /* Small devices (landscape phones, 576px and above till next break point) */
+  @media (min-width: 576px) {
+  }
+  
+  /* Medium devices (tablets, 768px and above till next break point) */
+  @media (min-width: 768px) {
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .footer-section {
+      margin: 2rem 0;
+      width: 45%;
+    }
+  
+    .footer-section p {
+      line-height: 1.7rem;
+    }
+  
+    .footer-links > a {
+      margin: 0.4rem 0;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and above till next break point) */
+  @media (min-width: 992px) {
+    .footer-logo {
+      display: flex;
+      width: 100px;
+      height: 100px;
+      margin: 1rem 0 0.5rem;
+      filter: var(--backDropShadow);
+    }
+  }
+  
+  /* Very large devices (desktops, 1200px and above till next break point) */
+  @media (min-width: 1200px) {
+    .footer-container {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+  
+    .footer-section:first-child {
+      width: 35%;
+    }
+  
+    .footer-section:nth-child(2),
+    .footer-section:nth-child(3),
+    .footer-section:nth-child(4) {
+      width: 18%;
+    }
+  
+    .footer-section-title {
+      font-size: 1.5rem;
+    }
+  
+    .footer-icon-container {
+      width: 2.3rem;
+      height: 2.3rem;
+    }
+  
+    .footer-icon-container i {
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* Very large devices (desktops, 1500px and above till next break point) */
+  @media (min-width: 1500px) {
+  }

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design thinking</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2475ceab54.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div class="fullContainer banner" id="homeSection">
@@ -78,26 +80,99 @@
 
 <!-- form section start  -->
 
-<div class="challenge-section">
+<!-- <div class="challenge-section">
     <div class="challenge-image">
       <img src="./images/Vision .jpg" alt="Oval Picture" class="oval-image">
     </div>
     <div class="challenge-form">
-      <h2>Let us know about your challenge</h2>
-      <form action="/submit" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="challenge">Describe your challenge:</label>
-        <textarea id="challenge" name="challenge" rows="4" cols="50" required></textarea><br><br>
-        <input type="checkbox" id="consent" name="consent" required>
-        <label for="consent">I consent to sharing my challenge.</label><br><br>
-        <input type="submit" value="Submit">
-      </form>
+      <form  class="contact-form">
+        <p>Your challange</p>
+        <fieldset>
+            <label for="name">Full name</label>
+            <input type="text" placeholder="name" name="name">
+        </fieldset>
+         <fieldset>
+            <label for="email">Email</label>
+            <input type="email" placeholder="name@gmail.com" name="email">
+        </fieldset> 
+        <fieldset>
+            <label for="phone">Phone</label>
+            <input type="text" placeholder="+254" name="phone number">
+        </fieldset>
+        <fieldset>
+            <label for="subject">Subject</label>
+            <input type="text" placeholder="subject" name="Subject">
+        </fieldset>
+        <fieldset>
+            <label>Your Challange</label>
+            <textarea name="Message" placeholder="write your challange here" ></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+        
+
     </div>
   </div>
   </div>
+ -->
+
+ 
+
+<p style="margin: -4rem auto 3rem;text-align:center; margin-top: 2rem;">Any question or remarks? Just write us a message!</p>
+
+<div class="contact-main-container">
+  <div class="contact-info-container">
+      <h2>Contact Information</h2>
+      <p>Fill up your challange and a member of the team will get back to you within 24hrs </p>
+
+  <div class="contact-social-links">
+      <a href="">
+          <div class="contact-icon-background"><i class="fa-brands fa-facebook-f"></i></div><p>designthinking association</p>
+      </a>
+      <a href="">
+          <div class="contact-icon-background"><i class="fa-brands fa-instagram"></i></div><p>@design_thinking</p>
+
+      </a>
+      <a href="">
+          <div class="contact-icon-background"><i class="fa-brands fa-x-twitter"></i></div><p>designthinking</p>
+
+      </a>
+      <a href="">
+          <div class="contact-icon-background"><i class="fa-regular fa-envelope"></i></div><p>designthinking@gmail.com</p>
+
+      </a>
+      <a href="">
+          <div class="contact-icon-background"><i class="fa-solid fa-phone"></i></div><p>+25470001254</p>
+
+      </a>
+
+  </div>
+  </div>
+  <form  class="contact-form">
+      <fieldset>
+          <label for="name">Full name</label>
+          <input type="text" placeholder="name" name="name">
+      </fieldset>
+       <fieldset>
+          <label for="email">Email</label>
+          <input type="email" placeholder="name@gmail.com" name="email">
+      </fieldset> 
+      <fieldset>
+          <label for="phone">Phone</label>
+          <input type="text" placeholder="+254" name="phone number">
+      </fieldset>
+      <fieldset>
+          <label for="subject">Subject</label>
+          <input type="text" placeholder="subject" name="Subject">
+      </fieldset>
+      <fieldset>
+          <label>Your Challange</label>
+          <textarea name="Message" placeholder="write your challange here" ></textarea>
+      </fieldset>
+      <button type="submit">Submit</button>
+      
+
+  </form>
+</div>
 
 <!-- form section end  -->
 
@@ -210,48 +285,96 @@
     <!-- services section end  -->
 
     
-
-
-
-<!-- footer section start  -->
-
-<Footer>
-    <div class="container">
-        <div class="newsLetterContainer">
-            <div class="logo">
-                <img src="./images/Starburst Theme-2.png" alt="">
+        <footer>
+            <div class='footer-container'>
+              <div class='footer-section'>
+                <h3 class='footer-section-title'>About Us</h3>
+                <section class='footer-section-title-underline'>
+                  <hr class='underline-orange' />
+                  <hr class='underline-grey' />
+                </section>
+                <img src='./images/Starburst Theme-2.png'class='footer-logo'alt='interfox logo'/>
+                <p>
+                  At design thinking association, we help you understand your customers and build products around their needs.
+                </p>
+                <section class='footer-socials'>
+                  <a
+                    href='https://web.facebook.com/profile.php?id=100091794979978'
+                    class='footer-icon-container'
+                    target='_blank'
+                  >
+                    <i class='fa-brands fa-facebook-f'></i>
+                  </a>
+                  <a
+                    href='https://twitter.com/interfoxInc'
+                    class='footer-icon-container'
+                    target='_blank'
+                  >
+                    <i class='fa-brands fa-twitter'></i>
+                  </a>
+                  <a
+                    href='https://www.linkedin.com/company/interfox-networks-limited/'
+                    class='footer-icon-container'
+                    target='_blank'
+                  >
+                    <i class='fa-brands fa-linkedin-in'></i>
+                </a>
+                  <a
+                    href='mailto:sc3s@gmail.com'
+                    class='footer-icon-container'
+                  >
+                    <i class='fa-solid fa-envelope'></i>
+                  </a>
+                  <a href='tel:+2547246558548' class='footer-icon-container'>
+                    <i class='fa-solid fa-phone'></i>
+                  </a>
+                </section>
+              </div>
+              <div class='footer-section'>
+                <h3 class='footer-section-title'>Company</h3>
+                <section class='footer-section-title-underline'>
+                  <hr class='underline-orange' />
+                  <hr class='underline-grey' />
+                </section>
+                <section class='footer-links'>
+                  <a href='./index.html'>Home</a>
+                  <a href='./about.html'>About Us</a>
+                  <a href='./services.html'>Services</a>
+                  <a href='./resource.html'>Resources</a>
+                  <a href='./contact.html'>Contact</a>
+                </section>
+              </div>
+              <div class='footer-section'>
+                <h3 class='footer-section-title'>Contacts</h3>
+                <section class='footer-section-title-underline'>
+                  <hr class='underline-orange' />
+                  <hr class='underline-grey' />
+                </section>
+                <address class='footer-links'>
+                  <p>Africa Nazarene University</p>
+                  <p>Nairobi, Kenya</p>
+                  <p>+254 700 002 052</p>
+                </address>
+              </div>
+              <div class='footer-section'>
+                <h3 class='footer-section-title'>Useful Links</h3>
+                <section class='footer-section-title-underline'>
+                  <hr class='underline-orange' />
+                  <hr class='underline-grey' />
+                </section>
+                <section class='footer-links'>
+                  <a href='/privacy-policy'>Privacy Policy</a>
+                  <a href='/te'>Terms of Use</a>
+                  <a href='/covid-19-pandemic'>Covid-19 Response</a>
+                  <a href='/auth/login'>Staff Login</a>
+                </section>
+              </div>
             </div>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, beatae.
-            </p>
-            <input type="text" placeholder="Enter your email">
-        </div>
-    <!-- newsLetterContainer -->
-    <div class="linksContainer">
-        <div class="title">Useful Links</div>
-        <ul>
-            <li><a href="./index.html" class="active">Home</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./services.html">Services</a></li>
-            <li><a href="./resource.html">Resources</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <!-- linkContainer -->
-    <div class="connectContainer">
-        <div class="title">Connect with us</div>
-        <p>Nairobi, Kenya 
-            047
-        </p>
-        <p>info@designthinkingassociation</p>
-        <p>(+254)710100100</p>
-    </div>
-    
-    <!-- connectContainer -->
-    </div>
-</Footer>
-
-<!-- footer section end  -->
+            <hr id='footer-copyright-seperator' />
+            <section class='footer-copyright'>
+              Copyright &copy; design thinking association
+            </section>
+          </footer>
 
 
 

@@ -51,10 +51,10 @@ body{
 
 }
 
-section{
+/* section{
     padding: 100px 0;
     position: relative;
-}
+} */
 
 span{
     color: var(--yellow);
@@ -283,7 +283,7 @@ header nav ul li a.active,a:hover {
     
     /* upcoming event end  */
 
-    .oval-image {
+    /* .oval-image {
         border-radius: 50%;
         max-width: 100%;
         height: auto;
@@ -311,9 +311,10 @@ header nav ul li a.active,a:hover {
         max-width: 100%;
         height: auto;
         margin-bottom: 10px;
-      }
+      } */
+
       
-      form {
+      /* form {
         max-width: 400px;
         margin: 0 auto;
       }
@@ -349,68 +350,347 @@ header nav ul li a.active,a:hover {
 
       textarea{
         resize: vertical;
+      } */
+
+      /* .contact-form{
+        width: 48%;
+        padding-right: 1rem;
+    }
+    .contact-form fieldset{
+        border: none;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form label{
+        font-size: .9rem;
+    
+    }
+    .contact-form input{
+        border: 1px solid #ccc;
+        padding: 6px 10px;
+        border-radius: 4px;
+        margin-top: 4px;
+        font-size: 0.95rem;
+    }
+    
+    .contact-form textarea{
+        border: 1px solid #ccc;
+        padding: 7px 10px ;
+        border-radius: 4px;
+        width: 100%;
+        height: 100px;
+        resize: none;
+        resize: vertical;
+    }
+    
+    .contact-form button{
+        background-color: #f23a1d;
+        border: 1px solid #f23a1d;
+        font-size: 1rem;
+        padding: 8px 14px;
+        border-radius: 8px;
+        color: white;
+        position: relative; 
+        left: 80%;
+    }
+    .contact-form button:hover{
+        cursor: pointer;
+    }
+    
+     */
+
+
+
+     /* contact part for challange start  */
+
+
+
+     .contact-main-container{
+      display: flex;
+      width: 85%;
+      margin: auto;
+      /* gap: 4%; */
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 1rem;
+      justify-content: space-between;
+  }
+  
+  .contact-info-container{
+      /* background-color: #f23a1d; */
+      background-image: url(./images/Vision\ .jpg);
+      background-size: cover;
+      background-clip: border-box;
+      border-radius: 0.8rem;
+      color: #fff;
+      width: 48%;
+      padding: 1rem 2rem;
+  
+  }
+  .contact-social-links a {
+      color: #fff;
+      text-decoration: none;
+      display: flex;
+      margin-top: 1rem;
+      gap: 1rem;
+      
+  }
+  .contact-icon-background{
+      height: 2rem;
+      width: 2rem;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+  
+  }
+  
+  .contact-icon-background i {
+      color: #f23a1d;
+  }
+  
+  .contact-form{
+      width: 48%;
+      padding-right: 1rem;
+  }
+  .contact-form fieldset{
+      border: none;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+  }
+  .contact-form label{
+      font-size: .9rem;
+  
+  }
+  .contact-form input{
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      border-radius: 4px;
+      margin-top: 4px;
+      font-size: 0.95rem;
+  }
+  
+  .contact-form textarea{
+      border: 1px solid #ccc;
+      padding: 7px 10px ;
+      border-radius: 4px;
+      width: 100%;
+      height: 100px;
+      resize: none;
+      resize: vertical;
+  }
+  
+  .contact-form button{
+      background-color: #f23a1d;
+      border: 1px solid #f23a1d;
+      font-size: 1rem;
+      padding: 8px 14px;
+      border-radius: 8px;
+      color: white;
+      position: relative; 
+      left: 80%;
+  }
+  .contact-form button:hover{
+      cursor: pointer;
+  }
+
+
+          /* contact part for challange end  */
+
+    
+    
+
+      footer {
+        background-color: #f23a1d;
+        color: white;
+        width: 100%;
+        padding-top: 1rem;
+      }
+      
+      .footer-container {
+        width: 85%;
+        margin: auto;
+      }
+      
+      .footer-section {
+        margin: 2rem 0;
+      }
+      
+      .footer-section-title {
+        font-weight: 600;
+      }
+      
+      .footer-section-title-underline {
+        display: flex;
+        margin: 0.7rem 0;
+      }
+      
+      .underline-orange {
+        width: 3rem;
+        border: none;
+        border-bottom: 4px solid blue;
+        border-radius: 0 50px 0 0;
+      }
+      
+      .underline-grey {
+        width: calc(100% - 3rem);
+        border: none;
+        border-bottom: 0.5px solid #767676;
+      }
+      
+      .footer-logo {
+        display: none;
+        
+      }
+      
+      .footer-section p {
+        line-height: 1.6rem;
+      }
+      
+      .footer-socials {
+        display: flex;
+        margin-top: 1rem;
+      }
+      
+      .footer-icon-container {
+        background-color: white;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin-right: 0.5rem;
+        color: #f23a1d;
       }
     
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
     
+      
+      .footer-icon-container i {
+        font-size: 1.2rem;
+      }
+      
+      .footer-icon-container:hover {
+        background-color: var(--primaryBlueColor);
+        color: white;
+      }
+      
+      .footer-links {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .footer-links > a {
+        color: white;
+        margin: 0.3rem 0;
+      }
+      
+      .footer-links > a:hover {
+        color: var(--secondaryOrangeColor);
+      }
+      
+      #footer-copyright-seperator {
+        width: 85%;
+        margin: 0 auto 1rem;
+        border: none;
+        border-bottom: 0.5px solid #767676;
+      }
+      
+      .footer-copyright {
+        text-align: center;
+        height: 3rem;
+      }
+      
+      address {
+        font-style: normal;
+      }
+      
+      /* ====== MEDIA QUERIES ====== */
+      /* Best Practice suggests */
+      /* keep default style for smallest screen size (portrait mobile, below 576px) */
+      /* and then proceed in assending order with media query like below */
+      
+      /* Small devices (landscape phones, 576px and above till next break point) */
+      @media (min-width: 576px) {
+      }
+      
+      /* Medium devices (tablets, 768px and above till next break point) */
+      @media (min-width: 768px) {
+        .footer-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+      
+        .footer-section {
+          margin: 2rem 0;
+          width: 45%;
+        }
+      
+        .footer-section p {
+          line-height: 1.7rem;
+        }
+      
+        .footer-links > a {
+          margin: 0.4rem 0;
+        }
+      }
+      
+      /* Large devices (desktops, 992px and above till next break point) */
+      @media (min-width: 992px) {
+        .footer-logo {
+          display: flex;
+          width: 100px;
+          height: 100px;
+          margin: 1rem 0 0.5rem;
+          filter: var(--backDropShadow);
+        }
+      }
+      
+      /* Very large devices (desktops, 1200px and above till next break point) */
+      @media (min-width: 1200px) {
+        .footer-container {
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+        }
+      
+        .footer-section:first-child {
+          width: 35%;
+        }
+      
+        .footer-section:nth-child(2),
+        .footer-section:nth-child(3),
+        .footer-section:nth-child(4) {
+          width: 18%;
+        }
+      
+        .footer-section-title {
+          font-size: 1.5rem;
+        }
+      
+        .footer-icon-container {
+          width: 2.3rem;
+          height: 2.3rem;
+        }
+      
+        .footer-icon-container i {
+          font-size: 1.3rem;
+        }
+      }
+      
+      /* Very large devices (desktops, 1500px and above till next break point) */
+      @media (min-width: 1500px) {
+      }
     
 
-
-
-  /* Adjust other styles as needed */
-
-  footer{
-    background-color: #181818;
-    color: gray;
-    padding: 50px 0;
-    font-size: 14px;
-
-}
-
-footer .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;
-}
-
-footer .title{
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-bottom: 2px solid;
-    margin-bottom: 30px;
-    padding: 0 0 5px 0;
-}
-footer p {
-    margin-bottom: 10px;
-}
-
-footer .linksContainer ul{
-    list-style-type: none;
-}
-
-footer .linksContainer ul li a {
-    text-decoration: none;
-    color: #7f7f7f;
-}
-
-footer .newsLetterContainer img{
-    height: 40px;
-    margin-bottom: 11px;
-}
-
-footer .newsLetterContainer input{
-    background-color: transparent;
-    border: 1px solid #7f7f7f;
-    outline: none;
-    padding: 10px 15px;
-    width: 100%;
-    margin-top: 10px;
-    color: var(--yellow);
-    border-radius: 30px;
-}
-
-
-
+ 
 
 
 
