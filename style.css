@@ -113,9 +113,11 @@ header nav ul li a.active,a:hover {
 .banner {
     min-height: 100vh;
     width: 100%;
-    background-image: url(./images/photo-1552862750-746b8f6f7f25.jpg);
+    background-image: url(./images/diego-ph-fIq0tET6llw-unsplash.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    background-position-y: center;
+   
 }
 
 .banner h1{
@@ -281,128 +283,6 @@ header nav ul li a.active,a:hover {
     }
     
     
-    /* upcoming event end  */
-
-    /* .oval-image {
-        border-radius: 50%;
-        max-width: 100%;
-        height: auto;
-      }
-      
-      .challenge-section {
-        display: flex;
-        align-items: center;
-        padding: 2rem;
-      }
-      
-      .challenge-image {
-        flex: 1;
-        padding: 1rem;
-        text-align: center;
-      }
-      
-      .challenge-form {
-        flex: 1;
-        padding: 1rem;
-        background-color: #f7f7f7;
-      }
-      
-      .consent-image {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-      } */
-
-      
-      /* form {
-        max-width: 400px;
-        margin: 0 auto;
-      }
-      
-      form label {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
-      }
-      
-      form input[type="text"],
-      form input[type="email"],
-      form textarea {
-        width: 100%;
-        padding: 5px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-      }
-      
-      form input[type="checkbox"] {
-        margin-right: 5px;
-      }
-      
-      form input[type="submit"] {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-
-      textarea{
-        resize: vertical;
-      } */
-
-      /* .contact-form{
-        width: 48%;
-        padding-right: 1rem;
-    }
-    .contact-form fieldset{
-        border: none;
-        margin-bottom: 1rem;
-        display: flex;
-        flex-direction: column;
-    }
-    .contact-form label{
-        font-size: .9rem;
-    
-    }
-    .contact-form input{
-        border: 1px solid #ccc;
-        padding: 6px 10px;
-        border-radius: 4px;
-        margin-top: 4px;
-        font-size: 0.95rem;
-    }
-    
-    .contact-form textarea{
-        border: 1px solid #ccc;
-        padding: 7px 10px ;
-        border-radius: 4px;
-        width: 100%;
-        height: 100px;
-        resize: none;
-        resize: vertical;
-    }
-    
-    .contact-form button{
-        background-color: #f23a1d;
-        border: 1px solid #f23a1d;
-        font-size: 1rem;
-        padding: 8px 14px;
-        border-radius: 8px;
-        color: white;
-        position: relative; 
-        left: 80%;
-    }
-    .contact-form button:hover{
-        cursor: pointer;
-    }
-    
-     */
-
-
-
-     /* contact part for challange start  */
 
 
 

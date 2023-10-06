@@ -326,11 +326,12 @@ span{
 
 .serviceTeamCard>img{
   width: 100%;
-  height: auto;
+  height: 200px;
   border-radius: 0.5rem;
   box-shadow: 1px 1px 6px 3px #ccc;
   margin-bottom: 0.2rem;
 }
+
 
 .serviceTeamCard {
   margin-bottom: 2.5rem;
